@@ -8,8 +8,8 @@ def 	call(body) { //declare une fonction qui récupère un call de la fonction '
 	body.delegate = mapVars
 	body ()
 
-	def name = maVars.name //récupère la valeur et l'insère dans name
-	def action = maVars.action //récupère la valeur et l'insère dans name/
+	def name = mapVars.name //récupère la valeur et l'insère dans name
+	def action = mapVars.action //récupère la valeur et l'insère dans name/
 
 	println ( action + " " + name + "!!")
 }
