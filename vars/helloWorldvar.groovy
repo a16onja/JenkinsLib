@@ -11,5 +11,5 @@ def 	call(body) { //declare une fonction qui récupère un call de la fonction '
 	def name = mapVars.name //récupère la valeur et l'insère dans name
 	def action = mapVars.action //récupère la valeur et l'insère dans name/
 
-	println ( action + " " + name + "!!")
+	println ( action + " " + name + "... ?!")
 }
